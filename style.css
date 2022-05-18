@@ -123,3 +123,21 @@ button {
     display: flex;
     flex-wrap: wrap;
 }
+
+.squares p {
+    display: flex;
+    margin-top: 215px;
+    text-align: center;
+}
+
+
+/* try later 
+.first-description , .second-description , .third-description , .fourth-description {
+    margin-top: 215px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+*/
+
