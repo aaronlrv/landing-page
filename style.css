@@ -1,3 +1,5 @@
+  /* css reset absolute god*/
+
 * {
     border-sizing: border-box;
     padding: 0;
@@ -5,12 +7,16 @@
     font-family: 'Roboto', sans-serif;
   }
 
+
+
 .square {
     width: 200px;
     height:200px;
     outline: 4px solid black;
     margin:30px;
 }
+
+/* start of header style */
 
 .head {
     display:flex;
@@ -42,3 +48,47 @@ ul {
 
 }
 
+/* start of introduction styling */
+
+.introduction {
+    display: flex;
+    flex: 1 1 0;
+    gap:50px;
+    background-color: #1F2937;
+    height:350px;
+    align-items: center;
+}
+
+.initial-header , .subtext {
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 10px;
+
+}
+
+.initial-header {
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.buttons {
+    margin-left: 150px;
+}
+
+button {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    padding:10px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+
+}
