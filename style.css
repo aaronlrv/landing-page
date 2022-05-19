@@ -130,14 +130,34 @@ button {
     text-align: center;
 }
 
+/* Quote page starts here*/
 
-/* try later 
-.first-description , .second-description , .third-description , .fourth-description {
-    margin-top: 215px;
+.quote {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 400px;
+    background-color: #E5E7EB;
+
 }
 
-*/
+.actual-quote {
+    
+    font-size: 36px;
+    font-style:italic;
+    color: #1F2937;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 80%;
+}
+
+
+.speaker {  
+    font-size: 20px;
+
+}
+
 
