@@ -165,51 +165,50 @@ button {
 }
 
 /* start of call to action border */
-
 .cta {
     display: flex;
-    flex-direction: column;
     height: 350px;
     justify-content: center;
     align-items: center;
 }
-
-.rectangle-cta{
+.rectangle-cta {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-content: center;
     background-color: #3882F6;
     width: 60%;
     border-radius: 10px;
     height: 40%;
+  }
+  
+  .cta-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      width: 40%;;
+      color: white;
+  }
 
-}
+  .header-cta {
+      font-weight: bold;
+      font-size: 25px;
+  }
+  
+  .sign-up {
+      display:flex;
+      justify-content: center;
+      width: 40%;
+  }
+  
+  .sign-up button {
+      height: 3em;
+      width: 10em;
+      margin: auto;
+      border-color:#F9FAF8;
+      outline-color: #F9FAF8;
 
-.cta-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding-left: 150px;
-    padding-top: 10px;
-
-}
-
-.header-cta {
-    font-size: 25px;
-    color: white;
-    font-weight: bold;
-}
-
-.subtext-cta {
-    display: flex;
-    color: white;
-}
-
-.sign-up {
-    border-color:#F9FAF8;
-    outline-color: #F9FAF8;
-}
-
+  }
 /* start of footer */
 
 .footer  {
