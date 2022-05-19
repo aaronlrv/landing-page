@@ -1,7 +1,7 @@
   /* css reset absolute god*/
 
 * {
-    border-sizing: border-box;
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -159,11 +159,12 @@ button {
 
 .speaker {  
     font-size: 20px;
-    flex-direction: column;
-    align-content: flex-end;
-    justify-content: flex-end;
+    width: 100%;
+    text-align: end;
 
 }
+
+/* start of call to action border */
 
 .cta {
     display: flex;
@@ -207,4 +208,24 @@ button {
 .sign-up {
     border-color:#F9FAF8;
     outline-color: #F9FAF8;
+}
+
+/* start of footer */
+
+.footer  {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items:center;
+    height: 100px;
+}
+
+.footer-text {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+
 }
